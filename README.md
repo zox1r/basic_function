@@ -20,9 +20,6 @@ Create a function called `getGreeting` that returns a `String`. The function sho
 ```dart
 // Input: None
 // Output: "Hello!"
-String getGreeting() {
-  return "Hello!";
-}
 ```
 
 ### 2. Get Number
@@ -32,9 +29,6 @@ Create a function called `getNumber` that returns an `int`. The function should 
 ```dart
 // Input: None
 // Output: 10
-int getNumber() {
-  return 10;
-}
 ```
 
 ### 3. Get Pi Value
@@ -44,21 +38,15 @@ Create a function called `getPiValue` that returns a `double`. The function shou
 ```dart
 // Input: None
 // Output: 3.14159
-double getPiValue() {
-  return 3.14159;
-}
 ```
 
 ### 4. Check Even
 
-Create a function called `isEven` that returns a `bool`. The function should check if a given number is even and return `true` if it is, and `false` otherwise.
+Create a function called `isEven` that returns a `bool`.And create variable inside fucntion called number type of int and give value 5. The function should check if a given number is even and return `true` if it is, and `false` otherwise.
 
 ```dart
-// Input: int number
+// Input: None
 // Output: true if number is even, false otherwise
-bool isEven(int number) {
-  return number  2 == 0;
-}
 ```
 
 ### 5. Get Full Name
@@ -68,9 +56,6 @@ Create a function called `getFullName` that returns a `String`. The function sho
 ```dart
 // Input: None
 // Output: "John Doe"
-String getFullName() {
-  return "John Doe";
-}
 ```
 
 ### 6. Get Age
@@ -80,9 +65,6 @@ Create a function called `getAge` that returns an `int`. The function should ret
 ```dart
 // Input: None
 // Output: 25
-int getAge() {
-  return 25;
-}
 ```
 
 ### 7. Get Temperature
@@ -92,10 +74,6 @@ Create a function called `getTemperature` that returns a `double`. The function 
 ```dart
 // Input: None
 // Output: Current temperature in degrees Celsius (e.g., 25.0)
-double getTemperature() {
-  // Replace with actual temperature retrieval logic
-  return 25.0;
-}
 ```
 
 ### 8. Check Weekend
@@ -105,10 +83,6 @@ Create a function called `isWeekend` that returns a `bool`. The function should 
 ```dart
 // Input: None
 // Output: true if today is a weekend day, false otherwise
-bool isWeekend() {
-  DateTime now = DateTime.now();
-  return now.weekday == 6 || now.weekday == 7;
-}
 ```
 
 ### 9. Get Favorite Color
@@ -118,9 +92,6 @@ Create a function called `getFavoriteColor` that returns a `String`. The functio
 ```dart
 // Input: None
 // Output: "Blue"
-String getFavoriteColor() {
-  return "Blue";
-}
 ```
 
 ### 10. Check Adult
@@ -128,9 +99,6 @@ String getFavoriteColor() {
 Create a function called `isAdult` that returns a `bool`. The function should check if a person is an adult (18 years or older) and return `true` if they are, and `false` otherwise.
 
 ```dart
-// Input: int age
+// Input: None
 // Output: true if age is 18 or older, false otherwise
-bool isAdult(int age) {
-  return age >= 18;
-}
 ```
